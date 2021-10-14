@@ -1,7 +1,16 @@
-div.letter{
+@media only screen and (max-width: 400px){
+    div.letter{
     border: 1px #000 solid;
     height: 220px;
     margin: 40px 30px 30px 30px;
+    }  
+}
+@media only screen and (min-width: 401px){
+    div.letter{
+    border: 1px #000 solid;
+    height: 220px;
+    margin: 40px 30px 30px 30px;
+    }  
 }
 
 div.letter h1:first-child{
@@ -55,6 +64,7 @@ div.letter h2{
     border-style: double;
     margin-top: 10px;
     margin-left: 10px;
+    box-shadow: 2px 2px 2px #008000; 
 }
 
 .button1 {
